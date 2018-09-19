@@ -7,7 +7,6 @@ from allennlp.commands.configure import Configure
 from allennlp.commands.elmo import Elmo
 from allennlp.commands.evaluate import Evaluate
 from allennlp.commands.analyze import Analyze
-from allennlp.commands.rank import Rank
 from allennlp.commands.fine_tune import FineTune
 from allennlp.commands.make_vocab import MakeVocab
 from allennlp.commands.predict import Predict
@@ -39,7 +38,6 @@ def main(prog: str = None,
             "train": Train(),
             "evaluate": Evaluate(),
             "analyze": Analyze(),
-            "rank": Rank(),
             "predict": Predict(),
             "make-vocab": MakeVocab(),
             "elmo": Elmo(),

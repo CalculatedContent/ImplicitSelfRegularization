@@ -137,8 +137,9 @@ def analyze_from_args(args: argparse.Namespace) -> Dict[str, Any]:
             M, N = np.min(W.shape), np.max(W.shape)
 #            print("{}  SHAPE {} x {}".format(im,M,N))
             _, svals, _ = np.linalg.svd(W)
+            minsval=np.min(svals)
             evals = svals*svals
             fit = powerlaw.Fit(evals)
-            print("{} {} {} {} {}".format(im,M,N,fit.alpha, fit.D))
+            print("{} {} {} {} {} {}".format(im,M,N,fit.alpha, fit.D, minsval))
             
     return None
