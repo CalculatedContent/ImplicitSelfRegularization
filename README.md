@@ -12,6 +12,3 @@ Repo to accompany papers
 
 [Recent talk (presented at NERSC Summer 2018)](https://www.youtube.com/watch?v=_Ni5UDrVwYU)
 
-Present at NERSC, June 2018
-
-### 
