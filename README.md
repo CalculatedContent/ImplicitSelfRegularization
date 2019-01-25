@@ -2,9 +2,13 @@
 
 Repo to accompany paper 
 
-_Implicit Self-Regularization in Deep Neural Networks: Evidence from Random Matrix Theory and Implications for Learning_
+[Implicit Self-Regularization in Deep Neural Networks: Evidence from Random Matrix Theory and Implications for Learning] (https://arxiv.org/abs/1810.01075)
 
-### Early Video Presentation
+Also see the short version
+
+[Traditional and Heavy-Tailed Self Regularization in Neural Network Models] (https://arxiv.org/abs/1901.08276)
+
+### Video Presentation
 
 _Why Deep Learning Works: Self Regularization in Neural Networks_
 
